@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+</head>
+<body>
+
+<h2>Kalkulator</h2>
+
+<form action="kalkulator.php" method="post">
+    <p>
+        <label for="broj1">Prvi broj:</label>
+        <input type="number" name="broj1" id="broj1" required>
+    </p>
+
+    <p>
+        <label for="broj2">Drugi broj:</label>
+        <input type="number" name="broj2" id="broj2" required>
+    </p>
+
+    <p>
+        <button type="submit" name="operacija" value="plus">+</button>
+        <button type="submit" name="operacija" value="minus">-</button>
+        <button type="submit" name="operacija" value="mnozenje">*</button>
+        <button type="submit" name="operacija" value="dijeljenje">/</button>
+    </p>
+</form>
+
+</body>
+</html>
