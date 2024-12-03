@@ -1,0 +1,33 @@
+
+CREATE TABLE countries (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    country_code VARCHAR(2) NOT NULL,
+    country_name VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+
+INSERT INTO countries (country_code, country_name) VALUES
+('HR', 'Croatia'),
+('US', 'United States'),
+('DE', 'Germany'),
+('FR', 'France'),
+('IT', 'Italy');
+
+
+
+CREATE TABLE users (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    country_id INT(11) NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (country_id) REFERENCES countries(id) ON DELETE CASCADE
+);
+
+
+INSERT INTO users (first_name, last_name, email, country_id) VALUES
+('Pero', 'Perić', 'pero.peric@example.com', 1), 
+('Iva', 'Ivić', 'iva.ivic@example.com', 2),    
+('Ana', 'Anić', 'ana.anic@example.com', 3);  

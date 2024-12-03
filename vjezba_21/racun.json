@@ -1,0 +1,55 @@
+{
+    "Invoice": {
+        "BrojRacuna": "123456",
+        "DatumIzdavanja": "2024-12-03",
+        "VrijemeIzdavanja": "14:30",
+        "Napomena": "Hvala na povjerenju!",
+        "RokZaPlacanje": "2024-12-10",
+        "KodValute": "HRK",
+        "BrojStavki": 2,
+        "PeriodNaplate": {
+            "PocetniDatum": "2024-12-01",
+            "ZavrsniDatum": "2024-12-31"
+        },
+        "IzdavateljRacuna": {
+            "OIB": "12345678901",
+            "NazivTvrtke": "Primjer d.o.o.",
+            "Racunovodja": "Marko Markovic",
+            "Adresa": "Ulica 123",
+            "Mjesto": "Zagreb"
+        },
+        "Kupac": {
+            "OIB": "98765432109",
+            "NazivTvrtke": "Kupac d.o.o.",
+            "Adresa": "Druga ulica 456",
+            "Mjesto": "Split"
+        },
+        "PodaciZaPlacanje": {
+            "PozivNaBroj": "202412034567",
+            "ModelPlacanja": "HR99",
+            "OpisPlacanja": "Uplata za usluge",
+            "IBAN": "HR1234567890123456789",
+            "IznosZaUplatu": 1250.00
+        },
+        "Stavka": [
+            {
+                "SifraArtikla": "001",
+                "Naziv": "Proizvod A",
+                "Kolicina": 2,
+                "JedinicnaCijena": 100.00,
+                "UkupnaCijenaBezPoreza": 200.00,
+                "PoreznaStopa": 25,
+                "CijenaSPorezom": 250.00
+            },
+            {
+                "SifraArtikla": "002",
+                "Naziv": "Proizvod B",
+                "Kolicina": 3,
+                "JedinicnaCijena": 300.00,
+                "UkupnaCijenaBezPoreza": 900.00,
+                "PoreznaStopa": 25,
+                "CijenaSPorezom": 1125.00
+            }
+        ]
+    }
+}

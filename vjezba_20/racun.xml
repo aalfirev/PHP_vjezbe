@@ -1,0 +1,57 @@
+<Invoice>
+    <BrojRacuna>123456</BrojRacuna>
+    <DatumIzdavanja>2024-12-03</DatumIzdavanja>
+    <VrijemeIzdavanja>14:30</VrijemeIzdavanja>
+    <Napomena>Hvala na povjerenju!</Napomena>
+    <RokZaPlacanje>2024-12-10</RokZaPlacanje>
+    <KodValute>HRK</KodValute>
+    <BrojStavki>2</BrojStavki>
+
+    <PeriodNaplate>
+        <PocetniDatum>2024-12-01</PocetniDatum>
+        <ZavrsniDatum>2024-12-31</ZavrsniDatum>
+    </PeriodNaplate>
+
+    <IzdavateljRacuna>
+        <OIB>12345678901</OIB>
+        <NazivTvrtke>Primjer d.o.o.</NazivTvrtke>
+        <Racunovodja>Marko Markovic</Racunovodja>
+        <Adresa>Ulica 123</Adresa>
+        <Mjesto>Zagreb</Mjesto>
+    </IzdavateljRacuna>
+
+    <Kupac>
+        <OIB>98765432109</OIB>
+        <NazivTvrtke>Kupac d.o.o.</NazivTvrtke>
+        <Adresa>Druga ulica 456</Adresa>
+        <Mjesto>Split</Mjesto>
+    </Kupac>
+
+    <PodaciZaPlacanje>
+        <PozivNaBroj>202412034567</PozivNaBroj>
+        <ModelPlacanja>HR99</ModelPlacanja>
+        <OpisPlacanja>Uplata za usluge</OpisPlacanja>
+        <IBAN>HR1234567890123456789</IBAN>
+        <IznosZaUplatu>1250.00</IznosZaUplatu>
+    </PodaciZaPlacanje>
+
+    <Stavka>
+        <SifraArtikla>001</SifraArtikla>
+        <Naziv>Proizvod A</Naziv>
+        <Kolicina>2</Kolicina>
+        <JedinicnaCijena>100.00</JedinicnaCijena>
+        <UkupnaCijenaBezPoreza>200.00</UkupnaCijenaBezPoreza>
+        <PoreznaStopa>25</PoreznaStopa>
+        <CijenaSPorezom>250.00</CijenaSPorezom>
+    </Stavka>
+
+    <Stavka>
+        <SifraArtikla>002</SifraArtikla>
+        <Naziv>Proizvod B</Naziv>
+        <Kolicina>3</Kolicina>
+        <JedinicnaCijena>300.00</JedinicnaCijena>
+        <UkupnaCijenaBezPoreza>900.00</UkupnaCijenaBezPoreza>
+        <PoreznaStopa>25</PoreznaStopa>
+        <CijenaSPorezom>1125.00</CijenaSPorezom>
+    </Stavka>
+</Invoice>
